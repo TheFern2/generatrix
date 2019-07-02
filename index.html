@@ -3,9 +3,21 @@
     <title>Generatrix</title>
 </header>
 
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
 <body>
-    Hello world
-    <input type="text" placeholder="Your repo name">
+    <h2>Generatrix V0.0.1</h2>
+    <h3>By: Fernando Balandran (kodaman)</h3>
+    <input id="repoOwner" type="text" placeholder="Repo owner">
+    <input id="repoName" type="text" placeholder="Your repo name">
+    <input id="generateIndex" type="button" value="Generate index contents"/>
+
+    <div id="outputBox">
+        <textarea id="markdown"></textarea>
+    </div>
 </body>
 
 </html>
