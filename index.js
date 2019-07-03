@@ -46,6 +46,7 @@ window.onload = function () {
     }
 
     function branchSort(a, b) {
+        console.log("Attempting sort")
         return a._date - b._date;
     }
 
