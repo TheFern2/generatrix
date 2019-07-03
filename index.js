@@ -94,8 +94,8 @@ window.onload = function () {
         var repoName = document.getElementById("repoName").value;
 
         // testing values
-        repoOwner = "kodaman2"
-        repoName = "TTT-Book"
+        //repoOwner = "kodaman2"
+        //repoName = "TTT-Book"
 
         var url = "https://api.github.com/repos/" + repoOwner + "/" + repoName + "/git/refs"
         //var url = "https://api.github.com/repos/kodaman2/Data_Preserve/git/refs"
