@@ -1,3 +1,9 @@
+/*
+ This script is left in the repo for historic purposes.
+ It is my first javascript script, and it was horrible, I didn't know much
+ about async code. This was a good lesson learned.
+*/
+
 var branchesArr = []
 
 class BranchModel {
